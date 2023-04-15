@@ -1,16 +1,16 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <GaussianRepresentation />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import GaussianRepresentation from './components/GaussianRepresentation.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    GaussianRepresentation
+}
 }
 </script>
 
